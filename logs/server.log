@@ -1,0 +1,19 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [153] using StatReload
+INFO:     Started server process [155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:49956 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:49970 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49972 - "GET /api/products HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49970 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49972 - "GET /api/products HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:49976 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49976 - "GET /api/products HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:47748 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49976 - "GET /api/products HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:36844 - "GET /api/products HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:36852 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36844 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36852 - "GET /api/products HTTP/1.1" 500 Internal Server Error
